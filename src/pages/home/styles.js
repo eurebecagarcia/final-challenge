@@ -27,3 +27,36 @@ export const ContentLogo = styled.div`
     margin-right: -80px;
   }
 `;
+
+export const ContentBanner = styled.div`
+  display: flex;
+  flex-direction: column;
+
+  p {
+    text-align: center;
+  }
+  h2 {
+    text-align: center;
+    margin: 20px;
+  }
+
+  ul {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    margin-top: 25px;
+
+    li {
+      list-style: none;
+      margin-bottom: 10px;
+    }
+  }
+`;
+
+export const BoxCard = styled.div`
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  margin: 40px;
+`;
