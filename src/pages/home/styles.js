@@ -46,10 +46,14 @@ export const ContentBanner = styled.div`
     justify-content: flex-start;
     flex-direction: column;
     margin-top: 25px;
+    padding-left: 90px;
 
     li {
+      max-width: 500px;
       list-style: none;
       margin-bottom: 10px;
+      display: flex;
+      justify-content: space-between;
     }
   }
 `;

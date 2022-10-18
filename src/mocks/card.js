@@ -13,6 +13,8 @@ import {
   BsTvFill,
 } from "react-icons/bs";
 
+import { AiOutlineThunderbolt, AiOutlineWoman } from "react-icons/ai";
+
 export const CardFormacao = [
   {
     name: "Formação",
@@ -57,5 +59,29 @@ export const CardContatos = [
     text4: "E-mail",
     icon4: <BsEnvelopeFill size="20" />,
     link3: "mailto:rebecagarciarodrigues21@gmail.com",
+  },
+];
+
+export const CardProj1 = [
+  {
+    name: "Movies",
+    icon: <BsFillCameraReelsFill size="30" />,
+    text: "Meu projeto",
+  },
+];
+
+export const CardProj2 = [
+  {
+    name: "HarryPotter",
+    icon: <AiOutlineThunderbolt size="30" />,
+    text: "Meu projeto",
+  },
+];
+
+export const CardProj3 = [
+  {
+    name: "Crespos",
+    icon: <AiOutlineWoman size="30" />,
+    text: "Meu projeto",
   },
 ];
